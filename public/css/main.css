@@ -1,0 +1,38 @@
+.planet-image {
+  width: 200px;
+  height: 200px;
+
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background: navy;
+  color: blanchedalmond;
+}
+
+ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+
+li{
+  border: 1px solid blanchedalmond;
+  padding: 10px;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: orchid;
+  font-size: 120%;
+}
+
+.planet-details {
+  display: flex;
+  /* justify-content: center; */
+  flex-flow: column;
+  align-items: center;
+
+
+}
